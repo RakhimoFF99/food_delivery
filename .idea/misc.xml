@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_home.xml" value="0.123" />
+        <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_search.xml" value="0.123" />
+        <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_shopping_bag.xml" value="0.123" />
         <entry key="..\:/food_delivery/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_account.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_shopping.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/menu/menu.xml" value="0.1109375" />
       </map>
     </option>
   </component>
