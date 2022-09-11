@@ -1,5 +1,6 @@
 package com.example.food_delivery
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,12 +24,17 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide();
 
 
+
+
         val homeFragment = HomeFragment()
         val searchFragment = SearchFragment()
         val shoppingFragment  = ShoppingFragment()
         val accountFragment = AccountFragment()
-
         makeCurrentFragment (homeFragment)
+
+        binding.button.setOnClickListener {
+            setLoginPage()
+        }
 
 
         binding.bottomNavigation.setOnItemSelectedListener   {
@@ -55,6 +61,9 @@ class MainActivity : AppCompatActivity() {
             false
 
         }
+    }
+    private fun setLoginPage () {
+        startActivity(Intent(this@MainActivity, LoginActivity::class.java))
     }
 
     private  fun makeCurrentFragment (fragment: Fragment) {

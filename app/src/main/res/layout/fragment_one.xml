@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.SearchFragment">
+    tools:context=".viewPager.fragments.FragmentOne">
 
     <!-- TODO: Update blank fragment layout -->
-    <RelativeLayout
+    <TextView
+        android:id="@+id/fragmentText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-    </RelativeLayout>
-
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>

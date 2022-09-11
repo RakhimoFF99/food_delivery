@@ -7,11 +7,16 @@
         <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_person.xml" value="0.1" />
         <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_search.xml" value="0.123" />
         <entry key="..\:/food_delivery/app/src/main/res/drawable/ic_shopping_bag.xml" value="0.123" />
-        <entry key="..\:/food_delivery/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_account.xml" value="0.1" />
         <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_one.xml" value="0.22" />
         <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_search.xml" value="0.1" />
         <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_shopping.xml" value="0.1" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_three.xml" value="0.14479166666666668" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/fragment_two.xml" value="0.14479166666666668" />
+        <entry key="..\:/food_delivery/app/src/main/res/layout/login_layout.xml" value="0.15217391304347827" />
         <entry key="..\:/food_delivery/app/src/main/res/menu/menu.xml" value="0.1109375" />
       </map>
     </option>
