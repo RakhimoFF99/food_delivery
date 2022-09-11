@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
     private  fun makeCurrentFragment (fragment: Fragment) {
             supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fl_wrapper,fragment)
+                replace(R.id.constraintFragmentParent,fragment)
                 commit();
             }
     }
