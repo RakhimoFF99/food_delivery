@@ -51,8 +51,9 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="44dp"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            tools:layout_editor_absoluteX="0dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
 
             <TextView
                 android:id="@+id/profileText"
@@ -61,10 +62,11 @@
                 android:layout_marginStart="36dp"
                 android:text="Account and Profile"
                 android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView2"
                 app:layout_constraintHorizontal_bias="0.142"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="18dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight1"
@@ -85,21 +87,20 @@
             android:layout_height="50dp"
 
             android:layout_marginTop="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/ManagementLayout"
-            app:layout_constraintTop_toBottomOf="@+id/profileLayout"
-            app:layout_constraintVertical_bias="0.211"
-            tools:layout_editor_absoluteX="0dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileLayout">
 
             <TextView
                 android:id="@+id/paymentText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
                 android:text="Manage Payments and Methods"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.169"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="16dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight2"
@@ -117,19 +118,21 @@
             android:id="@+id/ManagementLayout"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="289dp">
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PaymentLayout">
 
             <TextView
                 android:id="@+id/management"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
                 android:text="Manage Adresses"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="15dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight3"
@@ -147,20 +150,21 @@
             android:id="@+id/supportContact"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="60dp"
-            app:layout_constraintTop_toBottomOf="@+id/ManagementLayout"
-            tools:layout_editor_absoluteX="0dp">
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/orderLayout">
 
             <TextView
                 android:id="@+id/support"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
                 android:text="Support Contact"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.14"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="15dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight4"
@@ -178,21 +182,21 @@
             android:id="@+id/logoutLayout"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ManagementLayout"
-            app:layout_constraintVertical_bias="0.4"
-            tools:layout_editor_absoluteX="-16dp">
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/supportContact">
 
             <TextView
                 android:id="@+id/logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
                 android:text="Logout"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="15dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight5"
@@ -210,22 +214,22 @@
             android:id="@+id/orderLayout"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginBottom="24dp"
-            app:layout_constraintBottom_toTopOf="@+id/supportContact"
-            app:layout_constraintTop_toBottomOf="@+id/ManagementLayout"
-            app:layout_constraintVertical_bias="0.0"
-            tools:layout_editor_absoluteX="0dp">
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ManagementLayout">
 
             <TextView
                 android:id="@+id/order"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="15dp"
                 android:text="Order History"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="15dp" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/arrowRight6"
