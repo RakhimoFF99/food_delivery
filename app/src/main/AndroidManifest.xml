@@ -18,7 +18,11 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
+<<<<<<< HEAD
             android:exported="false"></activity>
+=======
+            android:exported="false" />
+>>>>>>> adbff7b1c377d5841e428b4e2a467cbe333bf9ab
         <activity
             android:name=".Splash_Screen"
             android:exported="true"
