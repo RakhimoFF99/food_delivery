@@ -32,9 +32,6 @@ class MainActivity : AppCompatActivity() {
         val accountFragment = AccountFragment()
         makeCurrentFragment (homeFragment)
 
-        binding.button.setOnClickListener {
-            setLoginPage()
-        }
 
 
         binding.bottomNavigation.setOnItemSelectedListener   {
